@@ -61,11 +61,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1     &kp N2          &kp N3         &kp N4            &kp N5   &tog 1                                                                  &mo 3            &kp N6  &kp N7             &kp N8       &kp N9           &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W           &kp E          &kp R             &kp T    &none                                                                   &previous_param  &kp Y   &kp U              &kp I        &kp O            &kp P     &kp BSLH
-&kp EQUAL  &kp A      &hm LEFT_ALT S  &hm LCTRL D    &hm LEFT_SHIFT F  &lt 4 G  &none     &kp LCTRL  &kp LALT       &kp LGUI   &kp RCTRL                &next_param      &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X           &kp C          &lt 5 V           &kp B                         &kp HOME       &kp PG_UP                                            &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp C_MUTE      &kp LC(LS(T))  &kp LC(LA(T))              &kp BSPC  &kp DEL    &lt 1 END      &kp PG_DN  &mt LS(LA(ENTER)) ENTER  &kp SPACE                &kp UP             &kp DOWN     &kp LBKT         &kp RBKT  &mo 2
+&kp ESC    &kp N1     &kp N2          &kp N3         &kp N4            &kp N5   &tog 1                                                    &mo 3            &kp N6  &kp N7             &kp N8       &kp N9           &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W           &kp E          &kp R             &kp T    &none                                                     &previous_param  &kp Y   &kp U              &kp I        &kp O            &kp P     &kp BSLH
+&kp EQUAL  &kp A      &hm LEFT_ALT S  &hm LCTRL D    &hm LEFT_SHIFT F  &lt 4 G  &kp GRAVE  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &next_param      &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X           &kp C          &lt 5 V           &lt 1 B                        &kp HOME      &kp PG_UP                              &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp C_MUTE      &kp LC(LS(T))  &kp LC(LA(T))              &kp BSPC   &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                &kp UP             &kp DOWN     &kp LBKT         &kp RBKT  &mo 2
             >;
         };
 
