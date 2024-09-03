@@ -54,6 +54,46 @@
             bindings = <&caps_word>;
             key-positions = <32 41>;
         };
+
+        left-parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <23 24>;
+        };
+
+        right-parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <24 25>;
+        };
+
+        left-bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <56 55>;
+        };
+
+        right-bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <56 57>;
+        };
+
+        left-brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <41 42>;
+        };
+
+        right-brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <42 43>;
+        };
+
+        left-chevron {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <71 72>;
+        };
+
+        right-chevron {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <72 73>;
+        };
     };
 
     keymap {
